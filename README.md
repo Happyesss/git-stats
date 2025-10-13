@@ -303,10 +303,10 @@ Here is an example how to use this package as library. To install it locally, as
 
 ```js
 // Dependencies
-var GitStats = require("git-stats");
+const GitStats = require("git-stats");
 
 // Create the GitStats instance
-var g1 = new GitStats();
+const g1 = new GitStats();
 
 // Display the ansi calendar
 g1.ansiCalendar({
@@ -398,14 +398,6 @@ Thanks! :heart:
 
 
 
-
-
-
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
- - `git-stats-fcc-importer`
- - `git-stats-importer`
 
 
 
