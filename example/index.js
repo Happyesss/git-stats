@@ -1,8 +1,8 @@
 // Dependencies
-var GitStats = require("../lib");
+const GitStats = require("../lib");
 
 // Create the GitStats instance
-var g1 = new GitStats();
+const g1 = new GitStats();
 
 // Display the ansi calendar
 g1.ansiCalendar({
